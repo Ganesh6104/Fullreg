@@ -1,0 +1,30 @@
+label{
+    display:block;
+    padding: 10px;
+    
+}
+form{
+    text-align: center;
+   border: 2px solid black;
+    margin:0px 400px 0px 400px;
+}
+#submit{
+    padding: 10px;
+}
+input[type=submit]{
+    background-color:#3e3c4d;
+    color:white;
+    height: 30px;
+    width:120px;
+}
+input[type=submit]:hover{
+    background-color:#99ba86;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-image:url("https://img.freepik.com/free-vector/organic-white-backgroun_1199-324.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

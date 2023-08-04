@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    
+    <form action="https://formspree.io/f/xjvqgrga" method="post">
+        
+        <label>FirstName:</label>
+        <input type="text" name="fname" required/>
+        <label>LastName:</label>
+        <input type="text" name="fname" required/>
+        <label>Password:</label>
+        <input type="password" name="password" required/>
+        <label>Gender:</label>
+        <select id="gender" required>
+            <option>--Select--</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <label>Phone Number </label>
+        <input type="tel" name="number" required>
+        <label>Address</label>
+        <input type="textarea" name="about" required>
+        <label>Register Number</label>
+        <input type="text" name="regno" required>
+        <label>College Name</label>
+        <input type="text" name="clg name" required>
+        <label>Subject(elective1)</label>
+        <select id="Subject" required>
+            <option>--Select--</option>
+            <option value="c">C</option>
+            <option value="java">JAVA</option>
+            <option value="python">PYTHON</option>
+            <option value="dsa">DSA</option>
+        </select>
+        <label>Subject(elective2)</label>
+        <select id="Subject" required>
+            <option>--Select--</option>
+            <option value="cns">CNS</option>
+            <option value="ooad">OOAD</option>
+            <option value="nosql">NOSQL</option>
+            <option value="bsd">BSD</option>
+        </select>
+        <div id="submit">
+            <input type="submit" value="Register" required>
+        </div>
+
+
+        
+    </form>
+    
+</body>
+</html>
